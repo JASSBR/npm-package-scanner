@@ -1,0 +1,14 @@
+{
+  "name": "npm-package-scanner",
+  "version": "1.0.0",
+  "description": "CLI that scans package.json for outdated deps, known vulnerabilities, and license issues.",
+  "bin": {
+    "npm-package-scanner": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test tests/"
+  },
+  "keywords": ["cli"],
+  "license": "MIT"
+}

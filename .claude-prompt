@@ -1,0 +1,31 @@
+You are building a CLI tool. Implement the COMPLETE command-line application:
+
+1. **CLI** (src/index.js): Full implementation with:
+   - Multiple commands/subcommands
+   - Flag and argument parsing
+   - Colored terminal output (use ANSI escape codes, no deps)
+   - Progress indicators where appropriate
+   - Help text for every command
+
+2. **Core Logic**: Implement all features described in the project goal — no stubs.
+
+3. **Error Handling**: Graceful errors with helpful messages. Never crash on bad input.
+
+4. **Tests** (tests/): Test core functionality.
+
+5. **README.md**: Update with full usage documentation, examples for every command.
+
+Use ONLY native Node.js modules. No npm dependencies. Make src/index.js executable with proper shebang.
+
+---
+PROJECT DETAILS:
+- Name: npm-package-scanner
+- Title: NPM Package Vulnerability Scanner
+- Description: CLI that scans package.json for outdated deps, known vulnerabilities, and license issues.
+- Category: cli
+- Difficulty: intermediate
+- Tags: npm, security, scanner
+
+Implement EVERYTHING now. The project must be complete and fully functional when you're done.
+After implementation, commit all changes with message: "Implement complete NPM Package Vulnerability Scanner"
+Then push to origin main.
